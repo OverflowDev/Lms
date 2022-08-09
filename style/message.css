@@ -1,0 +1,408 @@
+
+
+.board{
+    width: 70%;
+    margin: 30px 0 30px 30px;
+    height: 10%;
+    margin-top: 6em;
+    overflow: auto;
+    background: #ffff;
+    border-bottom: 3px solid black;
+    box-shadow: 5px solid black;
+    border-radius: 10px;
+}
+
+.board:hover{
+    cursor: pointer;
+}
+.board .mine tr h5{
+    margin-left: 10px;
+    margin-top: 0.7em;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.board .mine tr p{
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.board .mine tr h4{
+    margin-left: 18px;
+    font-size: 16px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+}
+
+.board2{
+    width: 70%;
+    margin: 30px 0 30px 30px;
+    height: 10%;
+    overflow: auto;
+    background: #ffff;
+    border-bottom: 3px solid black;
+    box-shadow: 5px solid black;
+    border-radius: 10px;
+}
+
+.board2:hover{
+    cursor:pointer;
+}
+
+.board2 .yours tr h5{
+    margin-left: 10px;
+    margin-top: 0.7em;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.board2 .yours tr p{
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.board2 .yours tr h4{
+    margin-left: 18px;
+    font-size: 16px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+}
+
+
+.board3{
+    width: 70%;
+    margin: 30px 0 30px 30px;
+    height: 10%;
+    overflow: auto;
+    background: #ffff;
+    border-bottom: 3px solid black;
+    border-radius: 10px;
+}
+
+.board3:hover{
+    cursor:pointer;
+}
+
+
+.board3 .ours tr h5{
+    margin-left: 10px;
+    margin-top: 0.7em;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.board3 .ours tr p{
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.board3 .ours tr h4{
+    margin-left: 18px;
+    font-size: 16px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+}
+
+.board4{
+    width: 70%;
+    margin: 30px 0 30px 30px;
+    height: 10%;
+    overflow: auto;
+    background: #ffff;
+    border-bottom: 3px solid black;
+    box-shadow: 5px solid black;
+    border-radius: 10px;
+}
+
+
+.board4:hover{
+    cursor:pointer;
+}
+
+.board4 .big tr h5{
+    margin-left: 10px;
+    margin-top: 0.7em;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.board4 .big tr p{
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.board4 .big tr h4{
+    margin-left: 18px;
+    font-size: 16px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+}
+
+
+.board5{
+    width: 70%;
+    margin: 30px 0 30px 30px;
+    height: 10%;
+    overflow: auto;
+    background: #ffff;
+    border-bottom: 3px solid black;
+    box-shadow: 5px solid black;
+    border-radius: 10px;
+}
+
+.board5:hover{
+    cursor:pointer;
+}
+
+
+.board5 .row tr h5{
+    margin-left: 10px;
+    margin-top: 0.7em;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.board5 .row tr p{
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.board5 .row tr h4{
+    margin-left: 18px;
+    font-size: 16px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+}
+
+
+.board6{
+    width: 70%;
+    margin: 30px 0 30px 30px;
+    height: 10%;
+    overflow: auto;
+    background: #ffff;
+    border-bottom: 3px solid black;
+    box-shadow: 5px solid black;
+    border-radius: 10px;
+}
+
+.board6:hover{
+    cursor:pointer;
+}
+
+
+.board6 .col tr h5{
+    margin-left: 10px;
+    margin-top: 0.7em;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.board6 .col tr p{
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.board6 .col tr h4{
+    margin-left: 18px;
+    font-size: 16px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+}
+
+
+@media (max-width: 769px) {
+    .board{
+        width: 70%;
+        margin: 30px 0 30px 30px;
+        height: 10%;
+        margin-top: 6em;
+        overflow: auto;
+        background: #ffff;
+        border-bottom: 3px solid black;
+        box-shadow: 5px solid black;
+        border-radius: 10px;
+    }
+    
+
+    .board2{
+        width: 70%;
+        margin: 30px 0 30px 30px;
+        height: 10%;
+        margin-bottom: 3em;
+        overflow: auto;
+        background: #ffff;
+        border-bottom: 3px solid black;
+        box-shadow: 5px solid black;
+        border-radius: 10px;
+    }
+
+    .board3{
+        width: 70%;
+        margin: 30px 0 30px 30px;
+        height: 10%;
+        margin-bottom: 3em;
+        overflow: auto;
+        background: #ffff;
+        border-bottom: 3px solid black;
+        box-shadow: 5px solid black;
+        border-radius: 10px;
+    }
+
+    .board4{
+        width: 70%;
+        margin: 30px 0 30px 30px;
+        height: 10%;
+        overflow: auto;
+        margin-bottom: 3em;
+        background: #ffff;
+        border-bottom: 3px solid black;
+        box-shadow: 5px solid black;
+        border-radius: 10px;
+    }
+
+    .board5{
+        width: 70%;
+        margin: 30px 0 30px 30px;
+        height: 10%;
+        overflow: auto;
+        margin-bottom: 3em;
+        background: #ffff;
+        border-bottom: 3px solid black;
+        box-shadow: 5px solid black;
+        border-radius: 10px;
+    }
+
+    .board6{
+        width: 70%;
+        margin: 30px 0 30px 30px;
+        height: 10%;
+        overflow: auto;
+        background: #ffff;
+        border-bottom: 3px solid black;
+        box-shadow: 5px solid black;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 477px) {
+    .board{
+        width: 70%;
+        margin: 15px 0 15px 15px;
+        height: 10%;
+        margin-top: 4.5em;
+        overflow: auto;
+        background: #ffff;
+        margin-bottom: 2.5em;
+        border-bottom: 3px solid black;
+        box-shadow: 5px solid black;
+        border-radius: 10px;
+    }
+
+    .board .mine tr p{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    .board2{
+        width: 70%;
+        margin: 15px 0 15px 15px;
+        height: 10%;
+        overflow: auto;
+        margin-bottom: 2.5em;
+        background: #ffff;
+        border-bottom: 3px solid black;
+        box-shadow: 5px solid black;
+        border-radius: 10px;
+    }
+
+    .board2 .yours tr p{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    .board3{
+        width: 70%;
+        margin: 15px 0 15px 15px;
+        height: 10%;
+        overflow: auto;
+        margin-bottom: 2.5em;
+        background: #ffff;
+        border-bottom: 3px solid black;
+        box-shadow: 5px solid black;
+        border-radius: 10px;
+    }
+
+    .board3 .ours tr p{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    .board4{
+        width: 70%;
+        margin: 15px 0 15px 15px;
+        height: 10%;
+        overflow: auto;
+        margin-bottom: 2.5em;
+        background: #ffff;
+        border-bottom: 3px solid black;
+        box-shadow: 5px solid black;
+        border-radius: 10px;
+    }
+
+    .board4 .big tr p{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    .board5{
+        width: 70%;
+        margin: 15px 0 15px 15px;
+        height: 10%;
+        overflow: auto;
+        margin-bottom: 2.5em;
+        background: #ffff;
+        border-bottom: 3px solid black;
+        box-shadow: 5px solid black;
+        border-radius: 10px;
+    }
+
+    .board5 .row tr p{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    .board6{
+        width: 70%;
+        margin: 15px 0 15px 15px;
+        height: 10%;
+        overflow: auto;
+        background: #ffff;
+        border-bottom: 3px solid black;
+        box-shadow: 5px solid black;
+        border-radius: 10px;
+    }
+
+    .board6 .col tr p{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+}
