@@ -27,7 +27,7 @@ body {
 }
 
 .main input, button {
-    width: 220px;
+    width: 14  0px;
     height: 40px;
     border: 1px solid;
     border-radius: 25px;
@@ -86,7 +86,7 @@ body {
     }
 
     .main input, button {
-        width: 220px;
+        width: 180px;
         height: 40px;
     }
 
