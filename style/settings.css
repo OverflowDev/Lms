@@ -1,0 +1,191 @@
+.text{
+    margin-left: 50px;
+}
+
+.setting-box{
+    margin-top: 6em;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.box-1{
+    margin-left: 3rem;
+    background-color: white;
+    width: 13rem;
+    height: 23rem;
+    border-radius: 8px;
+    box-shadow: 0px 2px 0px 0px gray;
+}
+.box-1 a{
+    display: block;
+    color: black;
+    margin-left: 10px;
+    line-height: 50px;
+}
+.box-1 .active{
+    display: flex;
+}
+.box-1 .active .act-marker{
+    background-color: green;
+    width: 10px;
+    height: 20px;
+    margin-top: 15px;
+}
+.title{
+    display: none;
+}
+form{
+    margin-left: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: none;
+    height: 100%; 
+    /* position: relative; */
+    background-color: white;
+    box-shadow: 0 2px 0 0 lightgrey;
+}
+i{
+    width: 40px;
+}
+.flname{
+    display: flex;
+    margin-top: 10px;
+}
+.l-name{
+    margin-left: 10em;
+}
+.lname{
+    margin-left:10px;
+}
+input{
+    outline: none;
+    border-radius: 4px;
+    height: 30px;
+    
+}
+img{
+    width: 50em;
+    height: 6em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.wrapper{
+    display: flex;
+    margin-left: 30px;
+}
+.user-img{
+    margin-top: -40px;
+    
+}
+.user-img img{
+    width: 100px;
+    border-radius: 100%;
+    
+}
+.details{
+    margin-left: 20px;
+}
+input[type="submit"]:hover{
+    background-color: blue;
+}
+input[type="submit"]{
+    margin-top: 40px;
+    cursor: pointer;
+    border: none;
+    width: 100px;
+    border-radius: 10px;
+    font-weight: bold;
+    height: 30px;
+    background-color: navy;
+    color:  white;
+    margin-bottom: 30px;
+    
+}
+input[type="text"].names{
+    width: 15em;
+}
+.ebm{
+    width: 30pc;
+}
+@media (min-width: 769px) and (max-width:1320px) {
+    .box-1{
+        height: 15rem;
+        margin-bottom: 30px;
+        width: 10rem;
+    }
+    .box-1 a{
+        line-height: 30px;
+    }
+    form{
+        width: 35pc;
+    }
+    img{
+        width: 35pc;
+    }
+    .l-name{
+        margin-left: 10px;
+    }
+    .ebm{
+        width: 15em;
+    }
+}
+@media (max-width: 769px) {
+    .setting-box{
+        display: block;
+    }
+    .box-1 a{
+        line-height: 30px;
+    }
+    .box-1{
+        height: 15rem;
+        margin-bottom: 30px;
+    }
+    .box-1 .active .act-marker{
+        background-color: green;
+        width: 10px;
+        height: 10px;
+        margin-top: 10px;
+    }
+    form{
+        width: 20pc;
+    }
+    img{
+        width: 20pc;
+    }
+    .flname{
+        display: block;
+    }
+    .ebm{
+        width: 15em;
+    }
+    .l-name{
+        margin-left: 0;
+    } 
+    .wrapper{
+        display: block;
+    }
+   
+}
+@media (min-width: 560px) and (max-width:769px){
+    .wrapper{
+        display: flex;
+    }
+    form{
+        width: 30pc;
+    }
+    img{
+        width: 30pc;
+    }
+}
+@media (max-width: 477px){
+    .title{
+        margin-top: -20px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        margin-left: 20px;
+        display: block;
+        font-weight: 600;
+    }
+}
